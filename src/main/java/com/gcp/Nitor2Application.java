@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Nitor2Application {
 
-	@GetMapping
+	@GetMapping(value = "/service-2")
 	public String getMessage(){
 		return "This is service2";
 	}
